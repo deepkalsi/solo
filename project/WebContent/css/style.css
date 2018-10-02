@@ -1,0 +1,178 @@
+@media screen and (max-width: 600px){
+    .navbar  {float: none;}
+}
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+body{
+ 	background-color: #ebf7ff;
+}
+
+.navbar{
+  position:fixed;
+  top:2px;
+  background-color:#0c2527;
+  width:100%;
+  overflow: hidden;
+      
+}
+
+.navbar a{
+	float:left;
+	font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active){
+	 background-color: #37a4ae;
+}
+
+.active {
+    background-color: #37a4ae;
+}
+
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: 'Source Sans Pro', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0c2527;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color:white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background-color: #37a4ae;
+}
+.form .message {
+	 font-family: 'Source Sans Pro', sans-serif;
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+	 font-family: 'Source Sans Pro', sans-serif;
+  color: #0c2527;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+
+.main-container{
+  margin-top:70px;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.title-bar{
+  position:fixed;
+  width:100%;
+  float:left;
+  overflow:auto;
+}
+.container{
+  margin-top:20px;
+	padding: 0 0 0 0;
+	height: 100px;
+	width: 100%;
+  background:  #32909a;
+  border-radius:5px;  
+}
+
+.col1{
+	float:left;
+	overflow:auto;
+  width:10%;
+  text-align:center;
+  color:white;
+	
+}
+
+.col2{
+	float:left;
+	overflow:auto;
+  width:10%;
+  text-align:center;
+  color:white;
+	
+}
+
+.col3{
+	float:left;
+	overflow:auto;
+  width:30%;
+  text-align:center;
+  color:white;
+	
+}
+
+.col4{
+	float:left;
+	overflow:auto;
+  width:20%;
+  text-align:center;
+  color:white;
+	
+}
+
+.col5{
+	float:left;
+	overflow:auto;
+  width:10%;
+  text-align:center;
+  color:white;
+	
+}
+
+.col6{
+	float:left;
+	overflow:auto;
+  width:10%;
+  text-align:center;
+  color:white;
+	
+}
+
+
+
+
+
+
